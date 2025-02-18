@@ -218,7 +218,6 @@
   :ensure t
   :bind(("C-c m" . magit-status))
   :config (progn
-	    (setq magit-completing-read-function 'ivy-completing-read)
             (transient-replace-suffix 'magit-branch 'magit-checkout
               '("b" "dwim" magit-branch-or-checkout))
 	    (setq magit-clone-set-remote.pushDefault t)))
