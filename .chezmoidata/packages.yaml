@@ -23,6 +23,6 @@ packages:
     - 'rlwrap'
     - 'tmux'
     - 'yq'
-    - 'railwaycat/emacsmacport/emacs-mac'
     casks:
     - 'maccy'
+    - 'emacs-mac'
