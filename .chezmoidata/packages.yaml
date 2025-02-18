@@ -1,0 +1,27 @@
+packages:
+  darwin:
+    taps:
+    - 'railwaycat/emacsmacport'
+    brews:
+    - 'git'
+    - 'bat'
+    - 'direnv'
+    - 'coreutils'
+    - 'enchant'
+    - 'fish'
+    - 'fzf'
+    - 'gawk'
+    - 'gnu-getopt'
+    - 'gnu-sed'
+    - 'gnu-tar'
+    - 'jq'
+    - 'kubernetes-cli'
+    - 'tree-sitter'
+    - 'ripgrep'
+    - 'shellcheck'
+    - 'rlwrap'
+    - 'tmux'
+    - 'yq'
+    - 'railwaycat/emacsmacport/emacs-mac'
+    casks:
+    - 'maccy'
