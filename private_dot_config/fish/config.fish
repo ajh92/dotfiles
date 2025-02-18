@@ -1,5 +1,5 @@
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish ; or true
-status --is-interactive; and rbenv init - fish | source
+if type -q rbenv; and status --is-interactive; and rbenv init - fish | source ; or true; end;
 
 direnv hook fish | source
 
