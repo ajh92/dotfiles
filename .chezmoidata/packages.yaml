@@ -3,6 +3,7 @@ packages:
     taps:
     - 'railwaycat/emacsmacport'
     brews:
+    - 'pkgconf'
     - 'lsd'
     - 'git'
     - 'bat'
